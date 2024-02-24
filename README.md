@@ -47,7 +47,7 @@ Different parameters such as board dimension, towers' and monsters' spawn rate a
 
 
 ## Screenshot
-![screenshot](Screenshot.png)
+![screenshot](screenshot.png)
 
 
 The path is represent by filled cells while field cells are empty. The two types of towers are represented by ☯ and ꔢ and the two type of monsters by ಡ and ඞ. Path cells (with a monster on it or not) in range of at least one tower are in red.
