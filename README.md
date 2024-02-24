@@ -4,7 +4,7 @@ This is a school project done in early-mid 2023. The goal was to create from scr
 Nonetheless, we did our best to respect the chosen paradigm. That is a reason why our code is messy and really difficult to read  (an other reason being us being bad :pepeKMS:). The game is displayed in the terminal.
 
 
-The game board is a square. The path is randomly generated. Turn after turn, monsters randomly spawn on one extremity of the path and try to reach the opposite. Tower are randomly spawn outside of the path, on field cells.
+The game board is a square. The path is randomly generated. Turn after turn, monsters randomly spawn on one extremity of the path and try to reach the opposite. Towers are randomly spawn outside of the path, on field cells.
 
 
 
