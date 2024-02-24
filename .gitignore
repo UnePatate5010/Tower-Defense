@@ -1,0 +1,11 @@
+*~
+dist/*
+node_modules/*
+src/*.js
+package-lock.json
+.parcel-cache
+.eslintrc.cjs
+.gitignore
+*.js
+./converage/*
+converage/
