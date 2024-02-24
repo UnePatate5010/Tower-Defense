@@ -7,8 +7,8 @@ Nonetheless, we did our best to respect the chosen paradigm. That is a reason wh
 
 ## File
 
-- `dist` : build directory
-- `src`
+- `/dist` : build directory
+- `/src`
   - `actor.ts` : defines the type `actor` used for both towers and monsters
   - `characters.ts` : generic entities (towers and monsters) created from `actor`
   - `display.ts` : display functions (in terminal)
@@ -17,7 +17,7 @@ Nonetheless, we did our best to respect the chosen paradigm. That is a reason wh
   - `structures.ts` : contains all custom data structures (all recursive of course) and their utilitary functions
   - `tower.ts` : all functions related to towers
   - `world.ts` : management of the game board
-- `tst` : contains all test files (please not that some tests in `world.test.ts` dont pass. Will probably never be fixed).
+- `/tst` : contains all test files (please not that some tests in `world.test.ts` dont pass. Will probably never be fixed).
 - `Makefile` : see below
 - `jest.config.ts` : Jest configuration file (framework used for tests)
 - `package.json` : dependencies files
@@ -28,6 +28,14 @@ Nonetheless, we did our best to respect the chosen paradigm. That is a reason wh
 
 ## How to Makefile
 
+First, needed packages need to be installed. So please run `npm install` in the repository root (it will install all dependencies from `package.json`)
+
+This project use a Makefile to compile and run executables. Run the following commands in the repository root depending on your needs.
+- `make` : compile the whole project and runs it
+- `make build` : compile only the main files (no tests)
+- `make run` : compile only the main files and run the project (same as `make`)
+- `make test` : compile the project and tests files and run all tests with Jest
+- `make clean` : delete all compiled files (in `/dist`)
 
 
 
